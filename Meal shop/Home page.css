@@ -44,7 +44,11 @@ body{
     background:linear-gradient(to right , white 50% , orange 50%);
     max-width:100vw;
     overflow-x:hidden;
-    
+    overflow-y:scroll;
+}
+body::-webkit-scrollbar{
+    width:0px;
+    background:transparent;
 }
 .navbar{
     background:linear-gradient(to right, white 50% , orange 50%)

@@ -10,12 +10,12 @@
     }
 
  
-    .navbar-nav .nav-item{
+.navbar-nav .nav-item{
       margin-left: 12px;
       font-weight:bold; 
     }
 
-    body{
+body{
       display: flex;
       flex-direction: column;
       min-height: 100vh;
@@ -23,7 +23,548 @@
       background-color:rgb(247, 231, 189);
       overflow-x: hidden;
       font-family: "Montserrat", sans-serif;
+      overflow:scroll;
     }
-    .navbar{
+    body::-webkit-scrollbar{
+      width:0px;
+      background:transparent;
+    }
+.navbar{
         background:linear-gradient(to right, white 50%,orange 50%)
     }
+.Cheezy_bluster img {
+    width: 130px; 
+    height: 130px;
+    position: relative;
+    top: 40px; 
+    z-index: 2;
+    left:30%;
+    margin-left:15px;
+    
+}
+.Cheezy_bluster .bg-white {
+    z-index: 1;
+    position: relative;
+    text-align:right;
+    border-radius:10%;
+    background-color:white;
+    transform:scale(1.5);
+    transform-origin: center;
+    padding: 1.5rem; 
+    width: 10%;
+    flex:1;
+}
+
+.Cheezy_bluster {
+    display: flex;
+    justify-content:flex-start;
+    gap: 30px;
+    flex-wrap:wrap; 
+    position: relative;
+    transition: transform 0.3s ease;
+    width:350px;
+    right:15px;
+    align-items:stretch;
+    height: 112px;
+}
+.Cheezy_bluster_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+}
+.Cheezy_bluster_hover:hover{
+  transform:scale(1.2);
+}
+.Cheezy_bluster h1,h2,h3{
+  font-weight:bold;
+}
+.ultimate_burger img{
+  width: 130px; 
+    height: 130px;
+    position: relative;
+    top: 20px; 
+    z-index: 2;
+    left:27%;
+    margin-left:15px;
+}
+.ultimate_burger .bg-white{
+    z-index: 1;
+    position: relative;
+    text-align:right;
+    border-radius:10%;
+    background-color:white;
+    transform:scale(1.5);
+    transform-origin: center;
+    padding: 1.5rem; 
+    width: 120%;
+}
+ .ultimate_burger{
+    display: flex;
+    align-items:stretch;
+    gap: 30px; 
+    position: relative;
+    width:350px;
+    height: 113px;
+ }
+ .ultimate_burger_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+ }
+ .ultimate_burger_hover:hover{
+  transform:scale(1.2);
+ }
+ .ultimate_burger h1,h2,h3{
+  font-weight:bold;
+ }
+ .Urdaburger img{
+    width: 150px; 
+    height: 130px;
+    position: relative;
+    top: 15px; 
+    z-index: 2;
+    left:25%;
+    margin-left:15px;
+ }
+ .Urdaburger .bg-white{
+    z-index: 1;
+    position: relative;
+    text-align:right;
+    border-radius:10%;
+    background-color:white;
+    transform:scale(1.6);
+    transform-origin: center;
+    padding: 1.5rem; 
+    width: 120%;
+ }
+ .Urdaburger{
+    display: flex;
+    align-items:stretch;
+    gap: 30px; 
+    position: relative;
+    width:360px;
+    height: 110px;
+ }
+ .Urdaburger_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+ }
+ .Urdaburger_hover:hover{
+  transform:scale(1.2);
+ }
+ .Urdaburger h1,h2,h3{
+  font-weight:bold;
+ }
+.Turkey_Burgers{
+    display: flex;
+    align-items:stretch;
+    gap: 30px; 
+    position: relative;
+    width:360px;
+    height: 112px;
+}
+.Turkey_Burgers_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+}
+.Turkey_Burgers_hover:hover{
+  transform:scale(1.2);
+}
+.Turkey_Burgers img{
+    width: 150px; 
+    height: 150px;
+    position: relative;
+    top: 10px; 
+    z-index: 2;
+    left:22%;
+    margin-left:15px;
+}
+.Turkey_Burgers .bg-white{
+     z-index: 1;
+    position: relative;
+    text-align:right;
+    border-radius:10%;
+    background-color:white;
+    transform:scale(1.6);
+    transform-origin: center;
+    padding: 1.5rem; 
+    width: 130%;
+}
+.Turkey_Burgers h1,h2,h3{
+  font-weight:bold;
+}
+.Veggie_Burgers{
+    display: flex;
+    align-items:stretch;
+    gap: 30px; 
+    position: relative;
+    width:375px;
+    height:109px;
+    right:5%;
+}
+.Veggie_Burgers_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+}
+.Veggie_Burgers_hover:hover{
+  transform:scale(1.2);
+}
+.Veggie_Burgers img{
+    width: 165px; 
+    height: 130px;
+    position: relative;
+    top: 23px; 
+    z-index: 2;
+    left:25%;
+    margin-left:15px;
+}
+.Veggie_Burgers .bg-white{
+     z-index: 1;
+    position: relative;
+    text-align:right;
+    border-radius:10%;
+    background-color:white;
+    transform:scale(1.6);
+    transform-origin: center;
+    padding: 1.5rem; 
+    width: 130%;
+}
+.Veggie_Burgers h1,h2,h3{
+  font-weight:bold;
+}
+ .menu_container{
+  display:flex;
+  gap:1%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content:center;
+  margin-left:-200px
+ }
+ .Hatch_Burger{
+    display: flex;
+    align-items:stretch;
+    gap: 30px; 
+    position: relative;
+    width:350px;
+    height:110px;
+    right:1%;
+ }
+ .Hatch_Burger_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+ }
+ .Hatch_Burger_hover:hover{
+  transform:scale(1.2);
+ }
+ .Hatch_Burger img{
+    width: 130px; 
+    height: 180px;
+    position: relative;
+    top: -20px; 
+    z-index: 2;
+    left:22%;
+    margin-left:15px;
+ }
+ .Hatch_Burger .bg-white{
+    z-index: 1;
+    position: relative;
+    text-align:right;
+    border-radius:10%;
+    background-color:white;
+    transform:scale(1.6);
+    transform-origin: center;
+    padding: 1.5rem; 
+    width: 45%;
+ }
+ .Hatch_Burger h1,h2,h3{
+     font-weight:bold;
+ }
+ .Yuzu_Burger{
+  display:flex;
+  align-items:stretch;
+  gap:30px;
+  position:relative;
+  width:374px;
+  height:110px;
+  right:5%;
+ }
+ .Yuzu_Burger_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+ }
+ .Yuzu_Burger_hover:hover{
+  transform:scale(1.2);
+ }
+ .Yuzu_Burger img{
+  width:160px;
+  height:130px;
+  position:relative;
+  top: 20px;
+  z-index: 2;
+  left:26%;
+  margin-left:15px;
+ }
+ .Yuzu_Burger .bg-white{
+  z-index: 1;
+  position:relative;
+  text-align:right;
+  border-radius:10%;
+  background-color:white;
+  transform:scale(1.6);
+  transform-origin:center;
+  padding:1.5rem;
+  width:45%
+ }
+ .Yuzu_Burger h1,h2,h3{
+  font-weight:bold;
+ }
+  .Rajma_Burger{
+  display:flex;
+  align-items:stretch;
+  gap:30px;
+  position:relative;
+  width:360px;
+  height:125px;
+  right:5%;
+ }
+ .Rajma_Burger_hover:hover{
+  transform:scale(1.2);
+ }
+ .Rajma_Burger_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+ }
+ .Rajma_Burger img{
+  width:160px;
+  height:130px;
+  position:relative;
+  top:30px;
+  z-index:2;
+  left:23%;
+  margin-left:15px;
+ }
+ .Rajma_Burger .bg-white{
+  z-index:1;
+  position:relative;
+  text-align:right;
+  border-radius:10%;
+  background-color:white;
+  transform:scale(1.6);
+  transform-origin:center;
+  padding:1.5rem;
+  width:45%
+ }
+ .Rajma_Burger h1,h2,h3{
+  font-weight:bold;
+ }
+ .Frico_Crunch{
+  display:flex;
+  align-items:stretch;
+  gap:30px;
+  position:relative;
+  width:375px;
+  height:111px;
+  right:1%;
+ }
+  .Frico_Crunch_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+ }
+ .Frico_Crunch_hover:hover{
+  transform:scale(1.2);
+ }
+ .Frico_Crunch img{
+  width:160px;
+  height:140px;
+  position:relative;
+  top:2px;
+  z-index:2;
+  left:23%;
+  margin-left:15px;
+ }
+ .Frico_Crunch .bg-white{
+  z-index:1;
+  position:relative;
+  text-align:right;
+  border-radius:10%;
+  background-color:white;
+  transform:scale(1.6);
+  transform-origin:center;
+  padding:1.5rem;
+  width:45%;
+ }
+ .Frico_Crunch h1,h2,h3{
+  font-weight:bold;
+ }
+ .Smash_Fire{
+  display:flex;
+  align-items:stretch;
+  gap:30px;
+  position:relative;
+  width:400px;
+  height:111px;
+  right:7%;
+ }
+ .Smach_Fire_hover:hover{
+  transform:scale(1.2);
+ }
+ .Smach_Fire_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+ }
+ .Smash_Fire img{
+  width:170px;
+  height:140px;
+  position:relative;
+  top:10px;
+  z-index:2;
+  left:20%;
+  margin-left:15px;
+ }
+ .Smash_Fire .bg-white{
+  z-index:1;
+  position:relative;
+  text-align:right;
+  border-radius:10%;
+  background-color:white;
+  transform:scale(1.7);
+  transform-origin:center;
+  padding:1.5rem;
+  width:55%;
+ }
+ .Smash_Fire h1,h2,h3{
+  font-weight:bold;
+ }
+ .Sesame_Smash{
+  display:flex;
+  align-items:stretch;
+  gap:30px;
+  position:relative;
+  width:400px;
+  height:111px;
+  right:12%;
+ }
+ .Sesame_Smash img{
+  width:170px;
+  height:150px;
+  position:relative;
+  top:-1px;
+  z-index:2;
+  left:25%;
+  margin-left:15px;
+ }
+ .Sesame_Smash .bg-white{
+  z-index:1;
+  position:relative;
+  text-align:right;
+  border-radius:10%;
+  background-color:white;
+  transform:scale(1.6);
+  transition:transform  0.3s ease; 
+  transform-origin:center;
+  padding:1.5rem;
+  width:45%;
+ }
+ .Sesame_Smash_hover{
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+ }
+.Sesame_Smash_hover:hover{
+  transform:scale(1.2);
+ }
+ .Sesame_Smash h1,h2,h3{
+  font-weight:bold;
+ }
+ .Chicken_Burgers{
+  display:flex;
+  align-items:stretch;
+  justify-content:flex-start;
+  gap:30px;
+  transition: transform 0.3s ease;
+  position:relative;
+  width:350px;
+  height:105px;
+  right:8%;
+ }
+ .Chicken_Burgers img{
+  width:130px;
+  height:150px;
+  position:relative;
+  top:-5px;
+  z-index:2;
+  left:18%;
+  margin-left:15px;
+ }
+ .Chicken_Burgers .bg-white{
+  z-index:1;
+  position:relative;
+  text-align:right;
+  border-radius:10%;
+  background-color:white;
+  transform:scale(1.6);
+  transform-origin:center;
+  padding:1.5rem;
+  width:45%;
+ }
+ .Chicken_Burgers h1,h2,h3{
+  font-weight:bold;
+ }
+ .Chicken_Burgers_hover:hover{
+  transform:scale(1.2);
+ }
+ .Chicken_Burgers_hover {
+  display:flex;
+  align-items:center;
+  transition:transform 0.3s ease;
+ }
+ .Categories a{
+  text-decoration:none;
+  border-radius:10px;
+  border:5px solid rgb(255, 219, 154);
+  background-color:rgb(255, 219, 154);
+  color:black;
+  transition:all 0.3s ease;
+  font-family:'Verdana', sans-serif;
+
+ }
+ .Categories a:hover{
+  transform:scale(1.5);
+  border-color:orange;
+  background-color:orange;
+ }
+ .Categories{
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+  gap:20px;
+ }
+ .Categories a.active{
+  background-color:orange;
+  color:white;
+  border-color:orange;
+
+ }
+.bg-white.hovered {
+  background-color:orange !important;
+  color:white !important;
+}
+.bg-white.hovered h3{
+  color:white !important;
+  background-color:red !important;
+  height:36% !important;
+  width: 105% !important;
+  border-radius: 0 0 10px 10px !important;
+  transition: 0.3s ease;
+}
+.bg-white.hovered h1{
+  color:white !important;
+}
